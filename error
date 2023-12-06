@@ -1,0 +1,12 @@
+📆Wednesday, 6 December 2023.
+Error: A dynamic link library (DLL) initialization routine failed.
+\\?\C:\Users\albin\OneDrive\Documents\01 Bangkit\capstone\bangkit-cloud-computing\node_modules\@tensorflow\tfjs-node\lib\napi-v8\tfjs_binding.node
+- info: https://stackoverflow.com/questions/70914639/a-dynamic-link-library-dll-initialization-routine-failed-nw-js-error-connect
+- info: (AVX) type my cpu intel celeron CPU N3350  @ 1.10Ghz https://github.com/nodejs/build/issues/704
+trace activity:
+- npm install @tensorflow/tfjs @tensorflow/tfjs-node
+- nvm install 14
+- nvm use 14
+- + nodemon@3.0.2
+- npm install -g npm@latest
+- rm -rf node_modules
