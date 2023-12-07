@@ -13,6 +13,46 @@ bangkit-cloud-computing project is part of the DISADA application. This is an AP
 > Upgrade or Downgrade NodeJs using [nvm](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
 
 
+## Structure Project
+bangkit-cloud-computing
+├── node_modules
+├── src
+│   ├── config
+│   │   └── database.js
+│   ├── controllers
+│   │   ├── babycrydetection
+│   │   │   ├── index.js
+│   │   │   ├── handler.js
+│   │   │   └── routes.js
+│   │   ├── user
+│   │   │   ├── index.js
+│   │   │   ├── handler.js
+│   │   │   └── routes.js
+│   ├── exceptions
+│   │   ├── AuthenticationError.js
+│   │   ├── ClientError.js
+│   │   ├── InvariantError.js
+│   │   └── NotFoundError.js
+│   ├── helpers
+│   │   ├── database.js
+│   │   └── middleware.js
+│   ├── migrations
+│   │   └── 20231203110811-users.js
+│   ├── models
+│   │   ├── index.js
+│   │   └── users.js
+│   ├── seeders
+│   │   └── users.js
+│   ├── services
+│   │   └── user.js
+│   └── index.js
+├── .env (need configurations manuall for security)
+├── .eslintrc.json
+├── .gitignore
+├── .sequelizerc
+├── package-lock.json
+└── package.json
+
 ## Run Locally
 Requirements Download and Installing Mandatory
 * [PostgreSQL v16.1 Windows-64.exe](https://get.enterprisedb.com/postgresql/postgresql-16.1-1-windows-x64.exe)
