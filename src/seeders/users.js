@@ -6,19 +6,19 @@ module.exports = {
       'users',
       [
         {
-          email: 'user1@example.com',
+          email: 'usertesting1@example.com',
           password: 'hashed_password',
           username: 'user1',
-          fullname: 'User One',
+          fullname: 'User Testing One',
           nohp: '123456789',
           created_at: new Date(),
           updated_at: new Date(),
         },
         {
-          email: 'user2@example.com',
+          email: 'usertesting2@example.com',
           password: 'hashed_password',
           username: 'user2',
-          fullname: 'User Two',
+          fullname: 'User Testing Two',
           nohp: '987654321',
           created_at: new Date(),
           updated_at: new Date(),
