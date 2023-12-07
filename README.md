@@ -2,19 +2,25 @@
 bangkit-cloud-computing project is part of the DISADA application. This is an API build with the Hapi.js as web application framework and using Database PostgreSQL
 
 ## Technology
-* Build with Hapi Js framework so that code can be easily modularized
+* Build with Node.js and HapiJs framework so that code can be easily modularized
 
 ## Database
-* PostgreSQL
+* [PostgreSQL v16.1](https://get.enterprisedb.com/postgresql/postgresql-16.1-1-windows-x64.exe)
 
 ## Version
-- NodeJS  **v14.21.3** .
+- NodeJS  **v18.16.1**
+- NPM **v9.5.1**
+> Upgrade or Downgrade NodeJs using [nvm](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
+
 
 ## Run Locally
 Clone this repository
 ```bash
 https://github.com/disada-id/bangkit-cloud-computing.git
 ```
+
+Download and Installing PostgreSQL Database v16.1
+* [PostgreSQL v16.1 Windows-64.exe](https://get.enterprisedb.com/postgresql/postgresql-16.1-1-windows-x64.exe)
 
 Go to the project directory
 ```bash
