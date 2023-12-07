@@ -25,7 +25,7 @@ Clone this repository
 https://github.com/disada-id/bangkit-cloud-computing.git
 ```
 
-After clone repo, request for send file .env to [@albimdkr](github.com/albimdkr)
+After cloning the repo, request an .env configuration to [@albimdkr](https://github.com/albimdkr)
 
 Go to the project directory
 ```bash
