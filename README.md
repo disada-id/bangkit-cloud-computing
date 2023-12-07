@@ -46,7 +46,7 @@ bangkit-cloud-computing
 │   │   └── users.js
 │   ├── services
 │   │   └── user.js
-│   └── index.js
+│   └── index.js (main file server)
 ├── .env (need configurations manually for security)
 ├── .eslintrc.json
 ├── .gitignore
