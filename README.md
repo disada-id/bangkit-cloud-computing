@@ -14,13 +14,18 @@ bangkit-cloud-computing project is part of the DISADA application. This is an AP
 
 
 ## Run Locally
+Requirements Download and Installing Mandatory
+* [PostgreSQL v16.1 Windows-64.exe](https://get.enterprisedb.com/postgresql/postgresql-16.1-1-windows-x64.exe)
+* [Python v3.8.0 for env (@tensorflow/tfjs)](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)
+* [Visual Studio Installer for env (@tensorflow/tfjs)](https://download.visualstudio.microsoft.com/download/pr/63b5064f-af60-4cbe-96cd-a9dd9d41ee3d/92559de62c05423d5cafd06fd34c35e51199b1a90f34284abbe5b1d6fb75342d/vs_BuildTools.exe)
+* [Microsoft Visual C++ Redistributable for env (@tensorflow/tfjs)](https://download.visualstudio.microsoft.com/download/pr/a061be25-c14a-489a-8c7c-bb72adfb3cab/4DFE83C91124CD542F4222FE2C396CABEAC617BB6F59BDCBDF89FD6F0DF0A32F/VC_redist.x64.exe)
+
 Clone this repository
 ```bash
 https://github.com/disada-id/bangkit-cloud-computing.git
 ```
 
-Download and Installing PostgreSQL Database v16.1
-* [PostgreSQL v16.1 Windows-64.exe](https://get.enterprisedb.com/postgresql/postgresql-16.1-1-windows-x64.exe)
+After clone repo, request for send file .env to [@albimdkr](github.com/albimdkr)
 
 Go to the project directory
 ```bash
