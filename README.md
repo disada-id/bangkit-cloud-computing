@@ -53,7 +53,7 @@ bangkit-cloud-computing
 ├── .sequelizerc
 ├── package-lock.json
 └── package.json
-```plaintext
+```
 
 ## Run Locally
 Requirements Download and Installing Mandatory
