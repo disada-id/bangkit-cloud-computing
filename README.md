@@ -14,6 +14,7 @@ bangkit-cloud-computing project is part of the DISADA application. This is an AP
 
 
 ## Structure Project
+```plaintext
 bangkit-cloud-computing
 ├── node_modules
 ├── src
@@ -46,7 +47,7 @@ bangkit-cloud-computing
 │   ├── services
 │   │   └── user.js
 │   └── index.js
-├── .env (need configurations manuall for security)
+├── .env (need configurations manually for security)
 ├── .eslintrc.json
 ├── .gitignore
 ├── .sequelizerc
