@@ -39,6 +39,12 @@ Migrate
   npm run migrate-dev
 ```
 
+Testing insert users to Database
+
+```bash
+  npm run seed-dev
+```
+
 Start the server
 
 ```bash
