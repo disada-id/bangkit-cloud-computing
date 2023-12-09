@@ -17,7 +17,7 @@ const handleFlaskResult = async (audioFilePath) => {
     return { recommendations };
   } catch (error) {
     console.error('Error in handleFlaskResult:', error);
-    throw new Error('Gagal dalam menangani hasil ekstraksi dari Flask');
+    throw new Error('Failed to handler the ekstrasi');
   }
 };
 
@@ -34,7 +34,7 @@ const handleNodeJsEndpoint = async (flaskResult) => {
   } catch (error) {
     console.error('Error in handleNodeJsEndpoint:', error);
     throw new Error(
-      'Gagal dalam menangani hasil ekstraksi di endpoint Node.js lainnya',
+      'Failed to handle result from ekstraction in Backend endpoint ',
     );
   }
 };
