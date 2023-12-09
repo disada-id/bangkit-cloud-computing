@@ -5,6 +5,7 @@ const path = require('path');
 const readRecommendationData = () => {
   try {
     const filePath = path.resolve(__dirname, 'data', 'recommendation.json');
+
     const data = fs.readFileSync(filePath, 'utf8');
     return JSON.parse(data);
   } catch (error) {
