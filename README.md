@@ -21,9 +21,9 @@ bangkit-cloud-computing
 │   ├── config
 │   │   └── database.js
 │   ├── controllers
-│   │   ├── babycrydetection
+│   │   ├── babycrydetection (fix)
 │   │   │   ├── index.js
-│   │   │   ├── handler.js
+│   │   │   ├── handler.js 
 │   │   │   └── routes.js
 │   │   ├── user
 │   │   │   ├── index.js
@@ -45,9 +45,12 @@ bangkit-cloud-computing
 │   ├── seeders
 │   │   └── users.js
 │   ├── services
-│   │   └── user.js
-│   └── index.js (main file server)
-├── .env (need configurations manually for security)
+│   │   ├── data (new)
+│   │   │   └── recommendation.json
+│   │   ├── recommendations.js
+│   │   └── users.js
+│   └── index.js
+├── .env (need to be added manually for security)
 ├── .eslintrc.json
 ├── .gitignore
 ├── .sequelizerc
