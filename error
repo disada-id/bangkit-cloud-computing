@@ -12,11 +12,31 @@ trace activity:
 - npm install -g npm@latest
 - rm -rf node_modules
 
- 📆Thursday, 7 December 2023.
- Error: A dynamic link library (DLL) initialization routine failed.🔴
- - info: https://github.com/tensorflow/tfjs/issues/5940
- Trace Activity: 
- - nvm use v18.16.1
- - + @tensorflow/tfjs-node@4.14.0
- - + npm install @tensorflow/tfjs-node-gpu
+📆Thursday, 7 December 2023.
+Error: A dynamic link library (DLL) initialization routine failed.🔴
+- info: https://github.com/tensorflow/tfjs/issues/5940
+Trace Activity: 
+- nvm use v18.16.1
+- + @tensorflow/tfjs-node@4.14.0
+- + npm install @tensorflow/tfjs-node-gpu
+
+
+📆Friday, 8 December 2023.
+Error: A dynamic link library (DLL) initialization routine failed.🔴
+Trace Activity: 
+- (-) Delete:
+    "@tensorflow/tfjs-node": "^4.14.0",
+    "@tensorflow/tfjs-node-gpu": "^4.14.0",
+- npm uninstall @tensorflow/tfjs-node @tensorflow/tfjs-node-gpu
+- rm -rf node_modules
+- rm package-lock.json
+- npm install
+- npm cache clean -f
+- npm install
+- + npm install @tensorflow/tfjs-node@2.5.0
+- npm rebuild @tensorflow/tfjs-node
+Error: node:internal/modules/cjs/loader:1340 return process.dlopen(module, path.toNamespacedPath(filename)); The specified module could not be found. 🔴
+- npm install @tensorflow/tfjs-node@2.8.5
+
+
 
