@@ -45,7 +45,7 @@ bangkit-cloud-computing
 │   ├── seeders
 │   │   └── users.js
 │   ├── services
-│   │   ├── data (new)
+│   │   ├── data (feat: new)
 │   │   │   └── recommendation.json
 │   │   ├── recommendations.js
 │   │   └── users.js
