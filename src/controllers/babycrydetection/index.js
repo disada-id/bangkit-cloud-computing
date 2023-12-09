@@ -1,10 +1,10 @@
-const routes = require('./routes');
+const FlaskHandler = require('./handler');
 
-const plugin = {
-  name: 'babycrydetection',
-  register: async (server, options) => {
-    server.route(routes);
-  },
+const register = async (server, options) => {
+  server.decorate('server', 'flaskHandler', FlaskHandler);
 };
 
-module.exports = plugin;
+module.exports = {
+  name: 'babycrydetectionPlugin',
+  register,
+};
