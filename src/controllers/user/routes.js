@@ -12,5 +12,4 @@ const userRoutes = [
     handler: userHandler.signIn,
   },
 ];
-
 module.exports = userRoutes;
