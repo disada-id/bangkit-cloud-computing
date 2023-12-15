@@ -1,10 +1,9 @@
 const routes = require('./routes');
 
 const plugin = {
-  name: 'users',
-  register: async (server, options) => {
+  name: 'user',
+  register: async (server) => {
     server.route(routes);
   },
 };
-
 module.exports = plugin;
