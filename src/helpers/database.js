@@ -43,4 +43,4 @@ if (env === 'production') {
   );
 }
 
-module.exports = Sequelize;
+module.exports = sequelize;
