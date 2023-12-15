@@ -1,19 +1,18 @@
 require('dotenv').config();
 const Sequelize = require('sequelize');
-const databaseConfig = require('../config/database');
 
 const env = process.env.NODE_ENV || 'development';
 let sequelize;
 
 if (env === 'production') {
   sequelize = new Sequelize(
-    databaseConfig[env].database,
-    databaseConfig[env].username,
-    databaseConfig[env].password,
+    process.env.DB_DATABASE_PROD,
+    process.env.DB_USERNAME_PROD,
+    process.env.DB_PASSWORD_PROD,
     {
-      host: databaseConfig[env].host,
-      dialect: databaseConfig[env].dialect,
-      port: databaseConfig[env].port,
+      host: process.env.DB_HOST_PROD,
+      dialect: process.env.DB_DIALECT_PROD,
+      port: process.env.DB_PORT_PROD,
       pool: {
         max: 5,
         min: 0,
@@ -25,13 +24,13 @@ if (env === 'production') {
   );
 } else {
   sequelize = new Sequelize(
-    databaseConfig[env].database,
-    databaseConfig[env].username,
-    databaseConfig[env].password,
+    process.env.DB_DATABASE_DEV,
+    process.env.DB_USERNAME_DEV,
+    process.env.DB_PASSWORD_DEV,
     {
-      host: databaseConfig[env].host,
-      dialect: databaseConfig[env].dialect,
-      port: databaseConfig[env].port,
+      host: process.env.DB_HOST_DEV,
+      dialect: process.env.DB_DIALECT_DEV,
+      port: process.env.DB_PORT_DEV,
       pool: {
         max: 5,
         min: 0,
