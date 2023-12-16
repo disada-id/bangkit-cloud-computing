@@ -3,5 +3,6 @@ Dockerfile
 README.md
 todo
 version
+error
 .dockerignore
 .env
