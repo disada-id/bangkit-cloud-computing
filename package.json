@@ -4,7 +4,6 @@
   "description": "Bangkit Academy 2023 Batch Capstone Project",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
     "start-dev": "nodemon src/index.js",
     "test-db": "node scripts/test-db-connection.js",
     "migrate-dev-generate": "cross-env NODE_ENV=development npx sequelize-cli migration:generate --name",
@@ -13,6 +12,7 @@
     "migrate-dev-undo": "cross-env NODE_ENV=development npx sequelize-cli db:migrate:undo --name",
     "migrate-dev-status": "cross-env  NODE_ENV=development npx sequelize-cli db:migrate:status",
     "migrate-dev-debug": "cross-env NODE_ENV=development npx sequelize-cli db:migrate --debug",
+    "start-prod": "nodemon src/index.js",
     "migrate-prod": "cross-env NODE_ENV=production npx sequelize-cli db:migrate",
     "seed-dev": "cross-env NODE_ENV=development npx sequelize-cli db:seed:all",
     "seed-prod": "cross-env NODE_ENV=production npx sequelize-cli db:seed:all",
