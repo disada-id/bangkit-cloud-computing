@@ -10,6 +10,7 @@
     "migrate-dev": "cross-env NODE_ENV=development npx sequelize-cli db:migrate",
     "seed-dev": "cross-env NODE_ENV=production npx sequelize-cli db:seed:all",
     "start-prod": "nodemon src/index.js",
+    "migrate-prod-generate": "cross-env NODE_ENV=production npx sequelize-cli migration:generate --name",
     "migrate-prod": "cross-env NODE_ENV=production npx sequelize-cli db:migrate",
     "seed-prod": "cross-env NODE_ENV=production npx sequelize-cli db:seed:all",
     "lint": "eslint src/"
