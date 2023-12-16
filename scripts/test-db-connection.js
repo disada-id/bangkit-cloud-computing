@@ -2,7 +2,7 @@
 const { Sequelize } = require('sequelize');
 const config = require('../src/config/database');
 
-const sequelize = new Sequelize(config.development);
+const sequelize = new Sequelize(config.production);
 
 async function testDatabaseConnection() {
   try {
