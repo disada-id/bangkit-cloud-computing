@@ -14,7 +14,7 @@ const babycryPlugin = require('./controllers/babycrydetection');
 
   const server = Hapi.server({
     host: process.env.HOST || 'localhost',
-    port: process.env.PORT || 5000,
+    port: process.env.PORT || 8080,
     routes: {
       cors: {
         origin: ['*'],
