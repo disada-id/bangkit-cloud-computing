@@ -1,5 +1,5 @@
-# Use node:14-alpine as the base image
-FROM node:14-alpine
+# Use node:18-alpine as the base image
+FROM node:18-alpine
 
 # Set the working directory
 WORKDIR /usr/src/app
@@ -12,12 +12,6 @@ RUN npm install
 
 # Copy the src directory to the working directory
 COPY src ./src
-
-# Run the migration
-RUN npm run migrate-prod
-
-# Run the seed
-RUN npm run seed-prod
 
 # Expose the port the app runs on
 EXPOSE 5000
